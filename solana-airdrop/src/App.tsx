@@ -12,7 +12,7 @@ import "@solana/wallet-adapter-react-ui/styles.css";
 import { RequestAirdrop } from "./components/Airdrop";
 
 export const App = () => {
-  const endpoint = "https://devnet.helius-rpc.com/?api-key=68e9d1c4-d4d1-46c7-a650-f53cde910002";
+  const endpoint = ""; // your connection endpoint
   return (
     <ConnectionProvider
       endpoint={
